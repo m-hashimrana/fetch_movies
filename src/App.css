@@ -1,3 +1,8 @@
+body {
+	background: azure;
+	padding: 10px;
+}
+
 .App {
 	text-align: center;
 }
@@ -28,10 +33,9 @@
 	color: #61dafb;
 }
 .fetchMovies {
-	background: #fff;
 	margin: 20px auto;
 }
-.fetchMovies > button {
+button {
 	width: 200px;
 	height: 42px;
 	border-radius: 8px;
@@ -48,6 +52,12 @@
 .fetchMovies > button:hover {
 	opacity: 0.6;
 }
+
+.addMovieWrapper {
+	width: 30%;
+	margin: 0px auto;
+}
+
 @keyframes App-logo-spin {
 	from {
 		transform: rotate(0deg);
